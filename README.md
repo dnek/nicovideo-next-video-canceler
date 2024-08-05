@@ -3,4 +3,5 @@
 再生終了時に全画面で視聴していた場合、それも自動的に解除します。
 
 ## インストール
+- Greasy Fork https://greasyfork.org/ja/scripts/502712-nicovideo-next-video-canceler
 - https://github.com/dnek/nicovideo-next-video-canceler/raw/main/nicovideo-next-video-canceler.user.js
