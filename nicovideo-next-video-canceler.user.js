@@ -4,6 +4,7 @@
 // @version     1.1
 // @author      dnek
 // @description Automatically click next video cancel button on nicovideo.
+// @description:ja    ニコニコ動画の動画再生終了後、次の動画へ遷移する前に自動的にキャンセルボタンをクリックするuserscriptです。再生終了時に全画面で視聴していた場合、それも自動的に解除します。
 // @homepageURL https://github.com/dnek/nicovideo-next-video-canceler
 // @updateURL   https://github.com/dnek/nicovideo-next-video-canceler/raw/main/nicovideo-next-video-canceler.user.js
 // @downloadURL https://github.com/dnek/nicovideo-next-video-canceler/raw/main/nicovideo-next-video-canceler.user.js
