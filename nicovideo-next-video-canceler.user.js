@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        nicovideo-next-video-canceler
 // @namespace   https://github.com/dnek
-// @version     1.0
+// @version     1.1
 // @author      dnek
 // @description Automatically click next video cancel button on nicovideo.
 // @homepageURL https://github.com/dnek/nicovideo-next-video-canceler
@@ -27,6 +27,12 @@
                     if (buttonEl !== null) {
                         buttonEl.click();
                         console.log('next video cancel button clicked.');
+                        if (document.fullscreenElement !== null) {
+                            document.exitFullscreen()
+                                .then(() => {
+                                    console.log('exited from full screen.');
+                                })
+                        }
                     }
                 }
             }
