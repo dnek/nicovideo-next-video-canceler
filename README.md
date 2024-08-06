@@ -8,3 +8,6 @@
 ## インストール
 - Greasy Fork https://greasyfork.org/ja/scripts/502712-nicovideo-next-video-canceler
 - https://github.com/dnek/nicovideo-next-video-canceler/raw/main/nicovideo-next-video-canceler.user.js
+
+## 関連
+- 自動再生直後に一時停止するUserScript https://github.com/dnek/nicovideo-autoplay-canceler
