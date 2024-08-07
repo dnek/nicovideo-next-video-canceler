@@ -11,3 +11,4 @@
 
 ## 関連
 - 自動再生直後に一時停止するUserScript https://github.com/dnek/nicovideo-autoplay-canceler
+- ウィンドウサイズに合わせてプレイヤーを拡大するUserScript https://github.com/dnek/nicovideo-player-expander
