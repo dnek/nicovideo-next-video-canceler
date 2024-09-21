@@ -2,8 +2,8 @@
 [ニコニコ動画](https://www.nicovideo.jp/video_top)の動画再生終了後、次の動画へ遷移する前に自動的にキャンセルボタンをクリックするuserscriptです。
 再生終了時に全画面で視聴していた場合、それも自動的に解除します。
 
-## 紹介動画
-- https://www.nicovideo.jp/watch/sm43938214
+## 紹介動画シリーズ
+- https://www.nicovideo.jp/user/134113088/series/487379
 
 ## 経緯説明記事
 - https://blog.dnek.net/entry/2024/08/06/170118
