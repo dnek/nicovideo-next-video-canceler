@@ -1,6 +1,5 @@
 # nicovideo-next-video-canceler
-[ニコニコ動画](https://www.nicovideo.jp/video_top)の動画再生終了後、次の動画へ遷移する前に自動的にキャンセルボタンをクリックするuserscriptです。
-再生終了時に全画面で視聴していた場合、それも自動的に解除します。
+[ニコニコ動画](https://www.nicovideo.jp/video_top)の連続再生オフ機能を、公式より少し便利にします（プレイリストは普通に連続再生、動画終了時に全画面を自動解除）。
 
 ## 紹介動画シリーズ
 - https://www.nicovideo.jp/user/134113088/series/487379
