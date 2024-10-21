@@ -1,0 +1,19 @@
+{
+    "name": "nicovideo-next-video-canceler",
+    "version": "1.6",
+    "manifest_version": 3,
+    "description": "ニコニコ動画の連続再生オフ機能を、公式より少し便利にします（プレイリストは普通に連続再生、動画終了時に全画面を自動解除）。",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.nicovideo.jp/watch/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "icons/icon_128.png"
+    }
+}
