@@ -3,8 +3,8 @@
 // @namespace   https://github.com/dnek
 // @version     1.7
 // @author      dnek
-// @description ニコニコ動画の連続再生オフ機能を、公式より少し便利にします（プレイリストは普通に連続再生、動画終了時に全画面を自動解除）。「nicovideo-autoplay-canceler」「nicovideo-player-expander」は別のスクリプトです。
-// @description:ja    ニコニコ動画の連続再生オフ機能を、公式より少し便利にします（プレイリストは普通に連続再生、動画終了時に全画面を自動解除）。「nicovideo-autoplay-canceler」「nicovideo-player-expander」は別のスクリプトです。
+// @description ニコニコ動画の連続再生オフ機能を、公式より少し便利にします（プレイリストは普通に連続再生、動画終了時に全画面を自動解除）。※公式のプレイヤー設定の「次の動画を自動再生」はONのままにしてください。「nicovideo-autoplay-canceler」「nicovideo-player-expander」は別のスクリプトです。
+// @description:ja    ニコニコ動画の連続再生オフ機能を、公式より少し便利にします（プレイリストは普通に連続再生、動画終了時に全画面を自動解除）。※公式のプレイヤー設定の「次の動画を自動再生」はONのままにしてください。「nicovideo-autoplay-canceler」「nicovideo-player-expander」は別のスクリプトです。
 // @homepageURL https://github.com/dnek/nicovideo-next-video-canceler
 // @updateURL   https://github.com/dnek/nicovideo-next-video-canceler/raw/main/nicovideo-next-video-canceler.user.js
 // @downloadURL https://github.com/dnek/nicovideo-next-video-canceler/raw/main/nicovideo-next-video-canceler.user.js

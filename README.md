@@ -1,5 +1,6 @@
 # nicovideo-next-video-canceler
 [ニコニコ動画](https://www.nicovideo.jp/video_top)の連続再生オフ機能を、公式より少し便利にします（プレイリストは普通に連続再生、動画終了時に全画面を自動解除）。
+※公式のプレイヤー設定の「次の動画を自動再生」はONのままにしてください。
 
 ## 紹介動画シリーズ
 - https://www.nicovideo.jp/user/134113088/series/487379
