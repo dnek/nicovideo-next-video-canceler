@@ -18,6 +18,12 @@
                                 .then(() => {
                                     console.log('exited from full screen.');
                                 })
+                        } else {
+                            const browserFullButtonEl = document.querySelector('button[aria-label="ブラウザ内最大化解除（b）"]');
+                            if (browserFullButtonEl !== null) {
+                                browserFullButtonEl.click();
+                                console.log('browserfull exit button clicked.');
+                            }
                         }
                     }
                 }
