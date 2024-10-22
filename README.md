@@ -9,6 +9,7 @@
 - https://blog.dnek.net/entry/2024/08/06/170118
 
 ## インストール
+- Chromeウェブストア https://chrome.google.com/webstore/detail/aconhkmkdlgekfokpennafalhfkpfnjn
 - Greasy Fork https://greasyfork.org/ja/scripts/502712-nicovideo-next-video-canceler
 - https://github.com/dnek/nicovideo-next-video-canceler/raw/main/nicovideo-next-video-canceler.user.js
 
