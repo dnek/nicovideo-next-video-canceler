@@ -10,9 +10,12 @@
 
 ## インストール
 - Chromeウェブストア https://chrome.google.com/webstore/detail/aconhkmkdlgekfokpennafalhfkpfnjn
-- Greasy Fork https://greasyfork.org/ja/scripts/502712-nicovideo-next-video-canceler
+- Greasy Fork（多くのブラウザに対応） https://greasyfork.org/ja/scripts/502712-nicovideo-next-video-canceler
+
+## ソース
 - https://github.com/dnek/nicovideo-next-video-canceler/raw/main/nicovideo-next-video-canceler.user.js
 
 ## 関連
-- 自動再生直後に一時停止するUserScript https://github.com/dnek/nicovideo-autoplay-canceler
-- ウィンドウサイズに合わせてプレイヤーを拡大するUserScript https://github.com/dnek/nicovideo-player-expander
+- 自動再生直後に一時停止する拡張機能 https://github.com/dnek/nicovideo-autoplay-canceler
+- 「シアターモード」または「ブラウザ内最大化」をする拡張機能 https://github.com/dnek/nicovideo-player-expander
+- コントローラーを自然にフェードイン・フェードアウトさせる拡張機能 https://github.com/dnek/nicovideo-comfortable-controller-fader
