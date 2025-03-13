@@ -13,17 +13,11 @@
                     if (buttonEl !== null) {
                         buttonEl.click();
                         console.log('next video cancel button clicked.');
-                        if (document.fullscreenElement !== null) {
-                            document.exitFullscreen()
-                                .then(() => {
-                                    console.log('exited from full screen.');
-                                })
-                        } else {
-                            const browserFullButtonEl = document.querySelector('button[aria-label="ブラウザ内最大化解除（b）"]');
-                            if (browserFullButtonEl !== null) {
-                                browserFullButtonEl.click();
-                                console.log('browserfull exit button clicked.');
-                            }
+
+                        const fullScreenButtonEl = document.querySelector('button[aria-label="ブラウザ内最大化解除（b）"]') || document.querySelector('button[aria-label="全画面表示を終了"]');
+                        if (fullScreenButtonEl !== null) {
+                            fullScreenButtonEl.click();
+                            console.log('full screen exit button clicked.');
                         }
                     }
                 }

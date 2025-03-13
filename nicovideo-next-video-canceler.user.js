@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        nicovideo-next-video-canceler
 // @namespace   https://github.com/dnek
-// @version     1.7
+// @version     1.8
 // @author      dnek
 // @description ニコニコ動画の連続再生オフ機能を、公式より少し便利にします（プレイリストは普通に連続再生、動画終了時に全画面を自動解除）。※公式のプレイヤー設定の「次の動画を自動再生」はONのままにしてください。「nicovideo-autoplay-canceler」「nicovideo-player-expander」は別のスクリプトです。
 // @description:ja    ニコニコ動画の連続再生オフ機能を、公式より少し便利にします（プレイリストは普通に連続再生、動画終了時に全画面を自動解除）。※公式のプレイヤー設定の「次の動画を自動再生」はONのままにしてください。「nicovideo-autoplay-canceler」「nicovideo-player-expander」は別のスクリプトです。
@@ -28,17 +28,11 @@
                     if (buttonEl !== null) {
                         buttonEl.click();
                         console.log('next video cancel button clicked.');
-                        if (document.fullscreenElement !== null) {
-                            document.exitFullscreen()
-                                .then(() => {
-                                    console.log('exited from full screen.');
-                                })
-                        } else {
-                            const browserFullButtonEl = document.querySelector('button[aria-label="ブラウザ内最大化解除（b）"]');
-                            if (browserFullButtonEl !== null) {
-                                browserFullButtonEl.click();
-                                console.log('browserfull exit button clicked.');
-                            }
+
+                        const fullScreenButtonEl = document.querySelector('button[aria-label="ブラウザ内最大化解除（b）"]') || document.querySelector('button[aria-label="全画面表示を終了"]');
+                        if (fullScreenButtonEl !== null) {
+                            fullScreenButtonEl.click();
+                            console.log('full screen exit button clicked.');
                         }
                     }
                 }
